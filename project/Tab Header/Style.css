@@ -1,0 +1,296 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* Contener */
+.tabs{
+  
+    height: 800px;
+    background: #F1F1F1;
+    overflow: hidden;
+    width: 100%;
+   
+}
+/* Header */
+.tabs .tab-header{
+    width: 80%;
+    height: 130px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center-top;
+}
+.tabs .tab-header>div{
+    width: calc(100% / 5);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    outline: none;
+    height: 120px;
+    padding-top: 15px;
+}
+/* Image Background start */
+#rahatul{
+    display: flex;
+    padding: 5px;
+    text-align: top;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+.iconBG{
+    display: flex;
+    background: #00acee;
+    padding: 5px;
+    text-align: top;
+    align-items: center;
+    margin: 0 auto;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    
+}
+/* Image Background end */
+/* Image Section */
+.tabs .tab-header>div>span> img{
+    margin: 0 auto;
+    height: 40px;
+    width: 40px;
+    color: #F1F1F1;
+}
+/* Indicator */
+#tab-indicator {
+   
+    width: calc(100% - 5px);
+    height: 3px;
+    background: black;
+    border-radius: 05px;
+    margin: auto;
+    display: block;
+    margin-top: -8px;
+    opacity: 0;
+}
+/* Active Section */
+.tab-header > div.active  {
+    color: red;
+    background: white;
+}
+
+.tab-header > div.active .iconBG{
+    background: #5c6383;
+    height: 50px;
+    width: 50px;
+    
+}
+.tab-header > div.active .iconBG>img{
+    
+    height: 40px;
+    width: 40px;
+    transform: rotate(-45deg);
+    
+}
+.tab-header > div.active  #tab-indicator {
+    background-color: rgb(46,53,139);
+     opacity: 1;
+ }
+ /* Hover Section */
+ .tab-header > div:hover {
+    color: #888;
+     
+ }
+ .tab-header > div:hover #rahatul {
+    transform: rotate(45deg);
+     background: #1B9CFC;
+     
+ }
+ .tab-header > div:hover #rahatul>img {
+     transform: rotate(-45deg);
+     
+  }
+  .tab-header > div:hover  #tab-indicator {
+   background: #0000FF;
+    opacity: 1;
+}
+.clear-div{
+    width: 90%;
+    margin: 0 auto;
+    height: 3px;
+    background: #d4d3d3;
+    margin-top: 8px;
+}
+/* Body Start */
+.tabs .tab-body {
+    position: relative;
+    width: calc(90%);
+    padding: 10px 5px;
+    background: #F1F1F1;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 610px;
+   overflow: auto;
+}
+.tabs .tab-body>section {
+    position: absolute;
+    top: -300%;
+    opacity: 0;
+    margin-top: 5px;
+    transform: scale(0.9);
+    background: white;
+}
+.tabs .tab-body>section.active {
+    top: 0px;
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Section-1  */
+.img-responsive{
+    height: 220px;
+    width: 185px;
+   float: right;
+   padding: 10px;
+   padding-bottom: 0px;
+}
+.imageWithTitle{
+    float: right;
+    padding: 10px;
+   padding-top: 0px;
+   text-align: center;
+}
+.content-1-text{
+    font-size: 18px;
+    text-align: justify;
+    padding:0px 10px 10px 10px;
+    line-height: 1.5rem;
+}
+.wellcome_msg{
+    float: right;
+    text-align: right;
+}
+/* Section-2  */
+.second-text-section{
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+    line-height: 1.5rem;
+    
+}
+.second-text-section>ul>li{
+    margin-left: 60px;
+}
+/* Section-3  */
+.third-text-section{
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+    line-height: 1.5rem;
+   
+}
+.third-text-section>ul>li{
+    margin-left: 60px;
+}
+/* Section-4  */
+#table{
+   
+    width: 100%;
+}
+
+#tableSection{
+    width: 99%;
+   padding-top: 10px;
+     font-size: 18px;
+   
+}
+#table>caption{
+    font-size: 28px;
+    font-weight: 600;
+    border-bottom: dashed 1px black;
+}
+
+.table-hover tbody>tr>td{
+    padding: 8px;
+}
+.table-hover tbody>tr>td>a{
+    color: black;
+    text-decoration: none;
+}
+.table-hover>tbody tr:hover{
+    background-color: #F1F1F1;
+   
+}
+/* Section-5  */
+#section-5{
+    padding: 15px;
+    padding-bottom: 0px;
+}
+.facepile{
+    margin-top: 20px;
+}
+.facepile .face{
+    display: inline;
+}
+.stat-value{
+    display: inline;
+}
+.stat-label{
+    display: inline;
+    color: #888;
+    padding-left: 5px;
+    font-size: 16px;
+}
+.dept-item>div>a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 10px;
+   color: rgb(44, 42, 42);
+
+}
+.dept-item>div>a:hover{
+    text-decoration: underline;
+
+
+}
+.dept-stats{
+    font-size: 18px;
+}
+.pub-list-headline>a{
+    text-decoration: none;
+    color: rgb(44, 42, 42);
+    
+}
+.pub-list-headline>a:hover{
+    text-decoration: underline;
+   
+    
+}
+.pub-list-headline{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(189, 184, 184);
+}
+.pub-list{
+    font-size: 18px;
+    margin-left: -40px;
+   
+}
+.pub>div>a{
+    text-decoration: none;
+}
+.pub>div>a:hover{
+    text-decoration: underline;
+}
+.title>a{
+    color: rgb(44, 42, 42);
+    font-size: 16px;
+    font-weight: bold;
+}
+.meta>a{
+    color:#888 ;
+    font-size: 16px;
+}
+.pub{
+    border-bottom: 1px solid rgb(189, 184, 184);
+    padding: 10px 0px;
+}
