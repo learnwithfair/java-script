@@ -1,0 +1,20 @@
+a,span,div>p{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: blue;
+    cursor: pointer;
+    display:inline-block;
+}
+span:hover{
+    color: red;
+    font-size: 1.8rem;
+}
+a:hover{
+    color: red;
+    font-size: 1.8rem;
+}
+div p:hover{
+    color: red;
+    font-size: 1.8rem;
+   
+}

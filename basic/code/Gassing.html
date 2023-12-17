@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Demo</title>
+</head>
+<body>
+    <script>
+      
+        for(var i=1; i<=5; i++)
+        {
+            var number = Number(prompt("Enter Your gassing number into 1 to 5 : "));
+            var value = ((Math.random()*4)+1).toFixed(0);
+            
+            if(number==value)
+            {
+                alert("You have won");
+            } 
+            else{
+                alert("You have loss. Gassing number was "+value +". Please try again.")
+            }
+        }
+         
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.hedding{
+    color: darkviolet;
+    font-weight: bold;
+    font-family: 'Monotype corsiva';
+    font-size: 2rem;
+   
+}
+
+button{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.showbtn{
+    color: blue;
+   
+ }
+.hiddenbtn{
+    color: red;
+   
+ }

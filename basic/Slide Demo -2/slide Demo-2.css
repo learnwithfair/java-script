@@ -1,0 +1,25 @@
+body{
+    background-color: darkcyan;
+}
+img{
+    display: flex;
+    margin: auto;
+    border: none;
+    margin-top: 60px;
+    box-shadow: .50px 4px 7px 4px black;
+}
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+button{
+  margin: 0px 85px;
+  font-size: 1.3rem;
+  color :red;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: lightgrey;
+}

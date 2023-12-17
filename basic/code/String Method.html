@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Method of String</title>
+</head>
+<body>
+    <script>
+        //String concatanation
+        var firstName = prompt("Enter First name : ");
+        var lastName = prompt("Enter Last name : ");
+        var fullName = firstName + " " + lastName;
+        document.write("Full name is : "+fullName);
+        //Method of Length
+        var len = fullName.length;
+        document.write("</br>Length of Fullname : "+len);
+        //Method of UppersCase()
+        var upperName = fullName.toUpperCase();
+        document.write("</br>Upper case of Fullname : "+upperName);
+        //Apply Concatination Method into toLowerCase() method
+        var lowerName = fullName.toLowerCase();
+        document.write("</br>Lower case of Fullname : ".concat(lowerName));
+        //Apply slice method
+        var SliceName = fullName.slice(3,16);
+        document.write("</br>After Slice of Fullname : "+SliceName);
+    </script>
+</body>
+</html>

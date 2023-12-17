@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Demo</title>
+</head>
+<body>
+    <script>
+        var num1= Number(prompt("Enter First number : "));
+        var num2= Number(prompt("Enter Second number : "));
+        sumation(num1,num2);
+        subtitusion(num1,num2);
+        multiplication(num1,num2);
+        division(num1,num2);
+        modolus(num1,num2);
+        function sumation(num1,num2){
+            var result = num1 + num2;
+            document.write("Sumation :  " + num1 +" + " +num2 + " = "+result + "</br>");
+        }
+        function subtitusion(num1,num2){
+            var result = num1 - num2;
+            document.write("Subtitusion :  " + num1 +" - " +num2 + " = "+result + "</br>");
+        }
+        function multiplication(num1,num2){
+            var result = num1 * num2;
+            document.write("Multiplication :  " + num1 +" * " +num2 + " = "+result + "</br>");
+        }
+        function division(num1,num2){
+            var result = num1 / num2;
+            document.write("Division :  " + num1 +" / " +num2 + " = "+result.toFixed(3) + "</br>");
+        }
+        function modolus(num1,num2){
+            var result = num1 % num2;
+            document.write("Modolus :  " + num1 +" % " +num2 + " = "+result + "</br>");
+        }
+    </script>
+</body>
+</html>

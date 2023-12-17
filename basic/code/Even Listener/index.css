@@ -1,0 +1,9 @@
+h1{
+    cursor: pointer;
+}
+.hedding{
+    color: red;
+    font-size: 3rem;
+    text-shadow: black 2px 3px;
+
+}

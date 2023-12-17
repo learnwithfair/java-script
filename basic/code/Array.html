@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Array Demo</title>
+    </head>
+    <body>
+        <script>
+            var len = Number(prompt("How many students : "));
+            var names = new Array(len);
+            for(var i=0; i<len; i++)
+            {
+                names[i] = prompt("Enter "+ (i+1) + " number student name : ")
+            }
+            document.write("Orginal array : " + names);
+            names.push("Sadman Sakib");
+            names.unshift("Rahul mia");
+            document.write("</br>After Push and unshift : " + names);
+            names.pop();
+            names.shift();
+            document.write("</br>After Pop and shift : " + names);
+            //Adding Element
+            names.splice(2,0,"Abdullah","Saifullah");
+            document.write("</br>After Adding splice : " + names);
+            //Delete Element
+            names.splice(1,2);
+            document.write("</br>After Delete splice : " + names);
+            names.sort();
+            document.write("</br>After Sortting : " + names);
+            names.reverse();
+            document.write("</br>After Sortting Reverse : " + names);
+            var numbers =[2,7,9,4,3];
+            document.write("</br>Numbers Array : " + numbers);
+            //Sortting
+            numbers.sort(function(a,b){
+                return a-b;
+            });
+            document.write("</br>After Sortting numbers : " + numbers);
+             //Sortting Reverse
+             numbers.reverse();
+             document.write("</br>After  Reverse Sortting numbers : " + numbers);
+             //Sortting function Reverse
+             numbers.sort(function(a,b){
+                return b-a;
+            });
+            document.write("</br>After Function Reverse Sortting numbers : " + numbers);
+        </script>
+    </body>
+</html>

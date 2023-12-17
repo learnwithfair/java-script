@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructor Demo</title>
+</head>
+<body>
+    <script>
+        function Student(name ,age , gpa){
+            this.name = name;
+            this.age = age;
+            this.gpa = gpa;
+            display(this.name,this.age,this.gpa);
+        }
+        function display(name ,age, gpa){
+            document.write("Name : "+name +"</br>");
+            document.write("Age : "+age +"</br>");
+            document.write("GPA : "+gpa +"</br>");
+        }
+        var student = new Student("Rahatul Islam",22,3.92);
+        var student2 = new Student("Anisul Islam",28,3.42);
+        var student3 = new Student("Ahsraful Islam",24,3.65);
+    </script>
+</body>
+</html>
