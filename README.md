@@ -4,6 +4,8 @@ Thanks for visiting my GitHub account!
 1. Basic
     * Slider → [Click Here](https://learnwithfair.github.io/java-script/basic/Slide%20Demo%20-2/slide%20Demo-2.html)
 
+2. Project
+      * Responsive Card → [Click Here](https://learnwithfair.github.io/java-script/project/Responsive%20Card%20Slider/)
 
 ## Source Code (Download)
 [Click Here](
